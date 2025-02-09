@@ -164,3 +164,237 @@
   body.light-mode .button:hover {
     filter: none;
   }
+
+  /* SOCIAL LINKS */
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.social-links li {
+  height: 3rem;
+}
+
+.social-links svg {
+  margin-top: 0.3rem;
+  transition: 300ms;
+}
+
+.social-links li:nth-child(2) svg {
+  width: 2.7rem;
+  height: 2.7rem;
+}
+
+.social-links svg:hover {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+
+body .social-links li svg path {
+  transition: 200ms;
+}
+
+body nav#navigation .social-links li:nth-child(1) svg:hover path,
+body .social-links li:nth-child(1) svg:hover path {
+  stroke: #ff377a;
+}
+
+body .social-links li:nth-child(2) svg:hover path:nth-child(2),
+body nav#navigation .social-links li:nth-child(2) svg:hover path:nth-child(2) {
+  fill: #fff;
+}
+
+body.light-mode .social-links li:nth-child(2) svg:hover path:nth-child(2),
+body.light-mode
+  nav#navigation
+  .social-links
+  li:nth-child(2)
+  svg:hover
+  path:nth-child(2) {
+  fill: #000;
+}
+
+body .social-links li:nth-child(3) svg:hover path:nth-child(2),
+body nav#navigation .social-links li:nth-child(3) svg:hover path:nth-child(2) {
+  fill: #0a66c2;
+}
+
+body .social-links li:nth-child(4) svg:hover path:nth-child(2),
+body nav#navigation .social-links li:nth-child(4) svg:hover path:nth-child(2) {
+  fill: #00abf0;
+}
+
+/* == == */
+
+#projects .card circle {
+  fill: var(--secundary-color);
+}
+
+#backToTopButton circle {
+  fill: var(--primary-color);
+}
+
+#contact li path,
+#navigation button.open-menu path[stroke*="#00856F"] {
+  stroke: var(--primary-color);
+}
+
+#navigation.scroll button.open-menu path[stroke*="#00856F"] {
+  stroke: var(--paragraph-2);
+}
+
+
+/*===== NAVIGATION ===================================*/
+
+nav {
+  width: 100vw;
+  height: var(--nav-height);
+
+  display: flex;
+
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+nav .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav.scroll {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
+}
+
+body.light-mode nav.scroll {
+  background: rgba(151, 151, 151, 0.5);
+}
+
+/* LOGO */
+
+a.logo {
+  font-family: "Gemunu Libre", sans-serif;
+  font-size: 3rem;
+  opacity: 0.7;
+}
+
+nav#navigation a.logo {
+  color: var(--primary-color);
+}
+
+body.light-mode nav#navigation a.logo,
+body.light-mode footer a.logo {
+  font-weight: bold;
+}
+
+footer a.logo,
+nav#navigation.scroll a.logo,
+body.menu-expanded nav#navigation a.logo,
+body.light-mode.menu-expanded nav#navigation.scroll a.logo {
+  color: #fff;
+}
+
+body.menu-expanded nav#navigation a.logo {
+  opacity: 1;
+}
+
+body.light-mode nav#navigation a.logo {
+  filter: brightness(0.8);
+}
+
+body.light-mode footer a.logo,
+body.light-mode nav#navigation.scroll a.logo {
+  color: #000;
+}
+
+/* == == */
+
+nav#navigation .menu ul li a {
+  color: #fff;
+}
+
+nav button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+nav .menu,
+nav .close-menu {
+  position: fixed;
+}
+
+/*===== MENU-EXPANDED ==========================================*/
+
+body.menu-expanded {
+  overflow: hidden;
+}
+
+body.menu-expanded nav#navigation.scroll {
+  background: none;
+  backdrop-filter: none;
+}
+
+.menu,
+.close-menu,
+body.menu-expanded .open-menu {
+  opacity: 0;
+  visibility: hidden;
+}
+
+body.menu-expanded .menu,
+body.menu-expanded .close-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.menu {
+  transform: translateX(100%);
+}
+
+body.menu-expanded .menu,
+body.menu-expanded nav.scroll .menu {
+  top: 0;
+  left: 0;
+
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
+
+  width: 100vw;
+  height: 100vh;
+
+  padding-top: var(--nav-height);
+
+  transition: transform 300ms;
+  transform: translateX(0);
+}
+
+.menu ul:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  margin: 8rem 0 10rem 0;
+
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3.1rem;
+}
+
+body.menu-expanded nav .logo,
+body.menu-expanded button {
+  position: relative;
+  z-index: 100;
+}
+
+body.menu-expanded button path {
+  stroke: white;
+}
+
