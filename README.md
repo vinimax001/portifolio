@@ -46,7 +46,7 @@ Neste projeto apliquei os seguintes pontos:
       <img src="https://github.com/vinimax001.png" width="100px" />
     </td>
     <td>
-      Feito por <a href="https://github.com/vinimax001">Vinicius Aguiar.</a> 🙋🏿‍♂️
+      Feito por <a href="https://github.com/vinimax001">Vinicius Aguiar.</a> 
     </td>
   </tr>
 </table>
