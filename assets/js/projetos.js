@@ -202,7 +202,7 @@ function projetos(section) {
         <div class="card">
           <h3>Meu Portifólio</h3>
           <div class="img-wrapper">
-            <img src="./assets/images/projects/portifolio.gif" alt="Imagem do projeto." />
+            <img src="./assets/images/projects/projeto.gif" alt="Imagem do projeto." />
             <div class="buttons">
               <a href="https://github.com/vinimax001/DoctorCare" target="_blank" title="Repositório no Github">
                 <svg
