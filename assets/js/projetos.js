@@ -196,7 +196,7 @@ function projetos(section) {
               </a>
             </div>
           </div>
-          <p>Projeto desenvolvido para o Dentista Dr Victor Aguiar.</p>
+          <p>Projeto desenvolvido para o Dr Victor Aguiar.</p>
           <p>HTML - CSS - JS</p>
         </div>
         <div class="card">
@@ -204,7 +204,7 @@ function projetos(section) {
           <div class="img-wrapper">
             <img src="./assets/images/projects/portifolio.gif" alt="Imagem do projeto." />
             <div class="buttons">
-              <a href="https://github.com/vinimax001/portifolio" target="_blank" title="Repositório no Github">
+              <a href="https://github.com/vinimax001/DoctorCare" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -218,7 +218,7 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="https://portifolio-sigma-gold.vercel.app" target="_blank" title="Ver Projeto">
+              <a href="https://doctor-care-two.vercel.app" target="_blank" title="Ver Projeto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
