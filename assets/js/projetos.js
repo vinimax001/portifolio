@@ -165,9 +165,9 @@ function projetos(section) {
         <div class="card">
           <h3>Doctor Care</h3>
           <div class="img-wrapper">
-            <img src="./assets/images/projects/doctorcare.gif" alt="Imagem do projeto." />
+            <img src="./assets/images/projects/projeto.gif" alt="Imagem do projeto." />
             <div class="buttons">
-              <a href="" target="_blank" title="Repositório no Github">
+              <a href="https://github.com/vinimax001/DoctorCare" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -181,7 +181,7 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="https://portifolio-sigma-gold.vercel.app" target="_blank" title="Ver Projeto">
+              <a href="https://doctor-care-two.vercel.app/" target="_blank" title="Ver Projeto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -202,9 +202,9 @@ function projetos(section) {
         <div class="card">
           <h3>Meu Portifólio</h3>
           <div class="img-wrapper">
-            <img src="./assets/images/projects/projeto.gif" alt="Imagem do projeto." />
+            <img src="./assets/images/projects/portifolio.gif" alt="Imagem do projeto." />
             <div class="buttons">
-              <a href="https://github.com/vinimax001/DoctorCare" target="_blank" title="Repositório no Github">
+              <a href="https://github.com/vinimax001/portifolio" target="_blank" title="Repositório no Github">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -218,7 +218,7 @@ function projetos(section) {
                   />
                 </svg>
               </a>
-              <a href="https://doctor-care-two.vercel.app" target="_blank" title="Ver Projeto">
+              <a href="https://portifolio-sigma-gold.vercel.app" target="_blank" title="Ver Projeto">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
